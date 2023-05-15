@@ -1,8 +1,10 @@
 html,
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 128%;
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
@@ -44,7 +46,7 @@ body {
   display: inline-flex;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+
   /* NAVY BLUE */
   color: #2e2f42;
 }
@@ -63,7 +65,7 @@ address {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+
   margin-left: 332px;
 }
 
@@ -121,7 +123,6 @@ h1 {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
 
   /* WHITE */
   color: #ffffff;
@@ -163,7 +164,7 @@ h1 {
   margin-right: 12px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+
   /* SLATE */
   color: #434455;
 }
@@ -215,7 +216,7 @@ h2 {
   margin-right: 12px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+
   text-align: center;
   /* SLATE */
   color: #434455;
@@ -227,7 +228,6 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
 
   /* NAVY BLUE */
   color: #2e2f42;
@@ -249,7 +249,7 @@ h3 {
   margin-left: 156px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+
   /* CLOUD */
   color: #f4f4fd;
 }
@@ -274,3 +274,7 @@ h3 {
   content: "WEB";
   color: #4d5ae5;
 } */
+
+.portfolio-button {
+  cursor: pointer;
+}
