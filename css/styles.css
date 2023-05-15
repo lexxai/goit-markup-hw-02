@@ -177,7 +177,7 @@ h1 {
 
 /* section2 */
 
-h2 {
+xh2 {
   padding-top: 120px;
   font-weight: 700;
   font-size: 36px;
@@ -231,7 +231,7 @@ h2 {
   border-radius: 0px 0px 4px 4px;
 }
 
-h3 {
+xh3 {
   font-weight: 500;
   font-size: 20px;
 
@@ -285,6 +285,7 @@ h3 {
   list-style-type: none;
   justify-content: center;
   gap: 12px;
+  width: 1128px;
 }
 
 .modal-btn {
@@ -321,6 +322,7 @@ h3 {
 
 .portfolio-table {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 72px;
   margin-bottom: 120px;
@@ -333,6 +335,9 @@ h3 {
   list-style-type: none;
   column-gap: 24px;
   row-gap: 48px;
+  justify-content: center;
+  margin-top: 72px;
+  margin-bottom: 120px;
 }
 
 .portfolio-cells h3 {
@@ -343,4 +348,9 @@ h3 {
   color: #2e2f42;
   margin-bottom: 8px;
   margin-top: 20px;
+}
+
+.ceil-header {
+  font-weight: 500;
+  font-size: 20px;
 }
