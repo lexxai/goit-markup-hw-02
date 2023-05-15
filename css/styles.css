@@ -1,3 +1,7 @@
+:root {
+  --bg-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +17,7 @@ body {
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
+  background-color: var(--bg-color);
 }
 
 .nav-header {
@@ -30,7 +35,7 @@ body {
   color: #2e2f42;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway, sans-serif";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
